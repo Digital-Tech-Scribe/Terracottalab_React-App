@@ -3,19 +3,13 @@ const stats = [{
   value: '70+',
   label: 'projects designed'
 }, {
-  value: '20+',
+  value: '50+',
   label: 'projects designed and built'
-}, {
-  value: '100+',
-  label: 'No of residences'
-}, {
-  value: '16Bi.',
-  label: 'Total project value'
 }, {
   value: '8yrs',
   label: 'Years of operation'
 }, {
-  value: '15+',
+  value: '70+',
   label: 'Satisfied clients'
 }];
 export function StatsSection() {
