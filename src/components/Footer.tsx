@@ -154,9 +154,14 @@ export function Footer() {
             <a href="#" className="hover:text-zinc-900 dark:hover:text-white transition-colors">Cookie Policy</a>
           </div>
           
-          <p className="text-[10px] uppercase tracking-widest font-bold text-zinc-400 dark:text-zinc-600">
-            © {new Date().getFullYear()} TILES N FITT. ALL RIGHTS RESERVED.
-          </p>
+          <div className="flex flex-col items-center md:items-end gap-2 text-[10px] uppercase tracking-widest font-bold text-zinc-400 dark:text-zinc-600">
+            <p>
+              © {new Date().getFullYear()} TILES N FITT. ALL RIGHTS RESERVED.
+            </p>
+            <p>
+              WEBSITE DESIGNED AND BUILT BY <a href="https://digitaltechscribe.com" target="_blank" rel="noopener noreferrer" className="text-[#cca453] hover:text-[#e8c060] transition-colors">DIGITAL TECH SCRIBE</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
