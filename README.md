@@ -1,4 +1,4 @@
-# Tiles N Fitts - React Website
+# Terracotta - React Website
 
 A modern, responsive architecture and interior design showcase website built with React, TypeScript, and Tailwind CSS.
 
