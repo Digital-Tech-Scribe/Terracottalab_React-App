@@ -32,8 +32,8 @@ A modern, responsive architecture and interior design showcase website built wit
 
 1. Clone the repository
 ```bash
-git clone https://github.com/andychuks51/Tiles_N_Fitts_React-App.git
-cd Tiles_N_Fitts_React-App
+git clone https://github.com/Digital-Tech-Scribe/Terracottalab_React-App.git
+cd Terracottalab_React-App
 ```
 
 2. Install dependencies
@@ -84,4 +84,4 @@ This project is proprietary and confidential.
 
 ## Contact
 
-For inquiries: contact@tilesandfitt.com
+For inquiries: contact@terracotta.com

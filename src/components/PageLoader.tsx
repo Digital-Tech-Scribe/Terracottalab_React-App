@@ -51,14 +51,14 @@ export function PageLoader({ isLoading }: PageLoaderProps) {
             
             {/* Dark Mode Logo */}
             <img 
-              src={`${import.meta.env.BASE_URL}Logo/logo_dark-mode.png`}
-              alt="Tiles N Fitt"
+              src={`${import.meta.env.BASE_URL}Logo/Terracotta_dark-mode.png`}
+              alt="Terracotta"
               className="hidden dark:block h-14 md:h-16 w-auto relative z-10"
             />
             {/* Light Mode Logo */}
             <img 
-              src={`${import.meta.env.BASE_URL}Logo/logo_light-mode.png`}
-              alt="Tiles N Fitt"
+              src={`${import.meta.env.BASE_URL}Logo/Terracotta_light-mode.png`}
+              alt="Terracotta"
               className="block dark:hidden h-14 md:h-16 w-auto relative z-10"
             />
           </motion.div>

@@ -1,9 +1,9 @@
 {
-  "name": "tiles-n-fitts-react-app",
+  "name": "terracottalab-react-app",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://digital-tech-scribe.github.io/Tiles_N_Fitts_React-App/",
+  "homepage": "https://digital-tech-scribe.github.io/Terracottalab_React-App/",
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",

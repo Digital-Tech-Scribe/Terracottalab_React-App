@@ -43,14 +43,14 @@ export function Footer() {
           <div className="sm:col-span-1 lg:col-span-4 space-y-8 flex flex-col items-center text-center sm:items-start sm:text-left">
             <Link to="/" className="flex items-center gap-4 group w-fit">
               <img 
-                src={`${import.meta.env.BASE_URL}Logo/logo_${effectiveTheme}-mode.png`} 
-                alt="Tiles N Fitt Logo" 
+                src={`${import.meta.env.BASE_URL}Logo/Terracotta_${effectiveTheme}-mode.png`} 
+                alt="Terracotta Logo" 
                 className={`w-12 h-12 object-contain transition-all duration-500 group-hover:scale-110 ${
-                  effectiveTheme === 'light' ? 'scale-[1.6]' : ''
+                  effectiveTheme === 'light' ? 'scale-[1.8]' : 'scale-[1.8]'
                 }`}
               />
               <span className="text-2xl font-bold tracking-tight uppercase text-zinc-900 dark:text-white">
-                TILES N FITT
+                TERRACOTTA
               </span>
             </Link>
             
@@ -97,7 +97,7 @@ export function Footer() {
               </motion.a>
               <motion.a 
                 whileHover={{ y: -5, x: 5 }}
-                href="mailto:contact@tilesnfitt.com"
+                href="mailto:contact@terracotta.com"
                 className="w-12 h-12 flex-none aspect-square rounded-full bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center text-zinc-600 dark:text-zinc-400 hover:bg-zinc-900 dark:hover:bg-white hover:text-white dark:hover:text-zinc-900 transition-all duration-300"
               >
                 <Mail size={20} />
@@ -154,9 +154,14 @@ export function Footer() {
             <a href="#" className="hover:text-zinc-900 dark:hover:text-white transition-colors">Cookie Policy</a>
           </div>
           
-          <p className="text-[10px] uppercase tracking-widest font-bold text-zinc-400 dark:text-zinc-600">
-            © {new Date().getFullYear()} TILES N FITT. ALL RIGHTS RESERVED.
-          </p>
+          <div className="flex flex-col items-center md:items-end gap-2 text-[10px] uppercase tracking-widest font-bold text-zinc-400 dark:text-zinc-600">
+            <p>
+              © {new Date().getFullYear()} TERRACOTTA. ALL RIGHTS RESERVED.
+            </p>
+            <p>
+              WEBSITE DESIGNED AND BUILT BY <a href="https://digitaltechscribe.com" target="_blank" rel="noopener noreferrer" className="text-[#cca453] hover:text-[#e8c060] transition-colors">DIGITAL TECH SCRIBE</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

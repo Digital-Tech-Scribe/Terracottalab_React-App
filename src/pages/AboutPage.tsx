@@ -111,7 +111,7 @@ export const AboutPage = () => {
     const allTeam: TeamMember[] = [
         // Director
         { 
-            name: "Arc. GbemiLeke", 
+            name: "GbemiLeke",
             title: "Director", 
             education: "Bsc. Msc. Arch", 
             sittingImage: "Arc-Leke_standing.webp",
