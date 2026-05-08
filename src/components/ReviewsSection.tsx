@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const reviews = [
   {
-    text: "Working with the Tiles & Fitts team was a blessing for our home. We wanted a space that felt modern but still warm and inviting, and they absolutely nailed it. We highly recommend them for architecture and design projects.",
+    text: "Working with the Terracotta team was a blessing for our home. We wanted a space that felt modern but still warm and inviting, and they absolutely nailed it. We highly recommend them for architecture and design projects.",
     author: "Zainab Ahmed",
     location: "Lagos, Nigeria"
   },
@@ -14,7 +14,7 @@ const reviews = [
     location: "Abuja, Nigeria"
   },
   {
-    text: "Tiles & Fitts brought a level of creativity and technical expertise that transformed our commercial space. Their ability to manage the project from concept to completion was impressive.",
+    text: "Terracotta brought a level of creativity and technical expertise that transformed our commercial space. Their ability to manage the project from concept to completion was impressive.",
     author: "Sarah Johnson",
     location: "London, UK"
   }

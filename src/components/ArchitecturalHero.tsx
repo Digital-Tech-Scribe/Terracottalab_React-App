@@ -31,13 +31,13 @@ export const ArchitecturalHero = () => {
           <HeroImageBackground />
         </div>
 
-        {/* 2. Page Title (TILES N FITT) */}
+        {/* 2. Page Title (TERRACOTTA) */}
         <div className="absolute inset-0 z-10 flex items-center justify-center overflow-hidden pointer-events-none">
           <motion.h1 
             style={{ y: textY, opacity: textOpacity, color: TITLE_COLOR }}
-            className="text-[18vw] font-bold leading-none tracking-tighter select-none whitespace-nowrap drop-shadow-sm"
+            className="text-[14vw] font-bold leading-none tracking-tighter select-none whitespace-nowrap drop-shadow-sm"
           >
-            TILES N FITT
+            TERRACOTTA
           </motion.h1>
         </div>
 

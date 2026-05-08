@@ -93,10 +93,10 @@ export function Header() {
       <div className="max-w-[1920px] mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-4 group">
           <img 
-            src={`${import.meta.env.BASE_URL}Logo/logo_${effectiveTheme}-mode.png`} 
-            alt="Tiles N Fitt Logo" 
+            src={`${import.meta.env.BASE_URL}Logo/Terracotta_${effectiveTheme}-mode.png`} 
+            alt="Terracotta Logo" 
             className={`w-12 h-12 object-contain transition-all duration-500 group-hover:scale-110 ${
-              effectiveTheme === 'light' ? 'scale-[1.6]' : ''
+              effectiveTheme === 'light' ? 'scale-[1.8]' : 'scale-[1.8]'
             }`}
           />
           <div className="flex flex-row whitespace-nowrap">
@@ -105,7 +105,7 @@ export function Header() {
                 ? 'text-zinc-900 dark:text-white' 
                 : 'text-zinc-900 dark:text-white'
             }`}>
-              TILES N FITT
+              TERRACOTTA
             </span>
           </div>
         </Link>

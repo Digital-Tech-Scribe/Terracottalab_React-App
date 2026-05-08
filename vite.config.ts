@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   // Use a subdir base only if building for staging (GitHub Pages)
-  base: process.env.VITE_STAGING === 'true' ? '/Tiles_N_Fitts_React-App/' : '/',
+  base: process.env.VITE_STAGING === 'true' ? '/Terracottalab_React-App/' : '/',
 }))
